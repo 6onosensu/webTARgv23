@@ -1,0 +1,34 @@
+header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(196, 180, 84);
+    padding-bottom: 1px;
+    padding-top: 3px;
+    padding-left: 10px;
+    font-family: serif, Algerian;
+    letter-spacing: 2px;
+}
+nav {
+    padding-bottom: 38px;
+    margin: 10px;
+    background-color: darkgray;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+nav li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(196, 180, 84);
+}
+nav ul {
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    overflow: visible;
+}
+
