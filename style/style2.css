@@ -24,7 +24,7 @@ nav li a {
 }
 nav li a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(222,184,135);
+    background-color: rgb(196, 180, 84);
 }
 nav ul {
     color: rgb(0, 0, 0);
@@ -35,7 +35,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: rgb(222,184,135);
+    background-color: rgb(196, 180, 84);
     width: 100%;
     text-align: center;
 }
@@ -50,6 +50,6 @@ main section {
 
 #second {
     position: absolute;
-    left: 600px;
+    left: 500px;
     top: 160px;
 }
