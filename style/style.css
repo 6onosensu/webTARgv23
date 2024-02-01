@@ -31,4 +31,25 @@ nav ul {
     list-style-type: none;
     overflow: visible;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(196, 180, 84);
+    width: 100%;
+    text-align: center;
+}
+main section {
+    border-left: 6px solid rgb(196, 180, 84);
+    background-color: darkgray;
+    border-radius: 100px;
+    padding: 2%;
+    width: 30%;
+    margin: 30px;
+}
 
+#second {
+    position: absolute;
+    left: 500px;
+    top: 160px;
+}
