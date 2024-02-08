@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid</title>
+    <link rel="stylesheet" type="text/css" href="tableStyle.css">
+</head>
+<body>
+    <h1>Lihtne tabel 1</h1>
+    <table>
+        <caption>1.tabel</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+<!--------------------------------------------------------------->
+    <table id="teine_tabel">
+        <caption>2.tabel</caption>
+        <tr>
+            <td class="teine_table_td">A</td>
+            <td rowspan="2" class="teine_table_td">B</td>
+        </tr>
+        <tr>
+            <td class="teine_table_td">C</td>
+        </tr>
+    </table>
+<!--------------------------------------------------------------->
+    <table id="kolmas_tabel">
+        <caption>3.tabel</caption>
+        <tr>
+            <td colspan="2" class="kolmas_tabel_td">A</td>
+        </tr>
+        <tr>
+            <td class="kolmas_tabel_td">B</td>
+            <td class="kolmas_tabel_td">C</td>
+        </tr>
+    </table>
+    <!--------------------------------------------------------------->
+    <table id="neljas_tabel">
+        <caption>4.tabel</caption>
+        <tr>
+            <td colspan="4" class="neljas_tabel_td">A</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="neljas_tabel_td">B</td>
+            <td colspan="2" class="neljas_tabel_td">C</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="neljas_tabel_td">D</td>
+            <td class="neljas_tabel_td">E</td>
+        </tr>
+        <tr>
+            <td class="neljas_tabel_td">F</td>
+            <td class="neljas_tabel_td">G</td>
+            <td class="neljas_tabel_td">H</td>
+        </tr>
+    </table>
+</body>
+</html>
