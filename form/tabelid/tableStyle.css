@@ -1,0 +1,36 @@
+table {
+    width: 50%;
+    height: 200px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+#teine_tabel {
+    width: 30%;
+    height: 100px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.teine_table_td {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+#kolmas_tabel {
+    width: 20%;
+    height: 100px;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 5px;
+}
+.kolmas_tabel_td {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+

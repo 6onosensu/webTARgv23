@@ -1,0 +1,52 @@
+form{
+    width: 60%;
+    border-bottom: 2px solid gold;
+    border-left: 2px solid gold;
+    border-radius: 5px;
+    background-color: snow;
+    font-family: Alef;
+    font-size: 1em;
+}
+td{
+    border-bottom: 1px solid gold;
+    border-left: 1px solid gold;
+    border-radius: 5px;
+}
+
+input[type=text],
+input[type=color],
+input[type=date],
+input[type=file],
+input[type=time],
+input[type=tel],
+input[type=email],
+input[type=hidden],
+input[type=image],
+input[type=datetime-local] {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #95c9c9;
+    border-right: 2px solid #95c9c9;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1em;
+    font-family: Alef;
+}
+input[type=text]:focus {
+    border: 2px solid #95c9c9;
+}
+input[type=color]:hover,
+input[type=date]:hover,
+input[type=text]:hover {
+    border: 2px solid #95c9c9;
+}
+select {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #95c9c9;
+    border-right: 2px solid #95c9c9;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1em;
+}
+
