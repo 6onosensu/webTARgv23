@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormid</title>
+    <link rel="stylesheet" type="text/css" href="vormStyle.css">
+    <script src="readFromForm.js"></script>
+</head>
+<body>
+    <h1>Küsimustik</h1>
+    <form name="kysimustik" id="myForm">
+        <strong for="varv">Choose answer's colors:</strong>
+        <input type="color" id="varv" value="color" onclick="" onchange="chooseColor()">
+        <table id="tableCont">
+            <tr>
+                <td>
+                    <strong for="name">Name: </strong>
+                </td>
+                <td>
+                    <input type="text" id="name" name="nimi" placeholder="Sisesta oma nimi" oninput="readTextBox()">
+                </td>
+                <td>
+                    <div id="answer"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Your group: </strong>
+                </td>
+                <td>
+                    <input type="radio" id="targv23" name="ryhm" value="TARgv23" onchange="readRadio()">
+                    <lable for="targv23">TARgv23</lable>
+                    <br>
+                    <input type="radio" id="logitgv23" name="ryhm" value="LOGITgv23" onchange="readRadio()">
+                    <lable for="logitgv23">LOGITgv23</lable>
+                </td>
+                <td>
+                    <div id="answer2"></div>
+                    <img src="" id="pilt">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Choose your favorites:</strong>
+                </td>
+                <td>
+                    <input type="checkbox" id="andmebaasid" name="aine" value="andmebaasid" onchange="readCheckboxValik()">
+                    <lable for="andmebaasid">Andmebaasid</lable>
+                    <br>
+                    <input type="checkbox" id="matemaatika" name="aine" value="math" onchange="readCheckboxValik()">
+                    <lable for="matemaatika">Math</lable>
+                    <br>
+                    <input type="checkbox" id="programeerimine" name="aine" value="programeerimine" onchange="readCheckboxValik()">
+                    <lable for="programeerimine">Programeerimine</lable>
+                </td>
+                <td>
+                    <div id="answer3"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="kodu">Where are you from?</strong>
+                    <br>
+                    <strong for="km">Distance (km)</strong>
+                </td>
+                <td>
+                    <select id="kodu" onchange="selectOptionValik()">
+                        <option value="Tyhi">Vali...</option>
+                        <option value="Tallinn">Tallinn</option>
+                        <option value="Tartu">Tartu</option>
+                        <option value="Haapsalu">Haapsalu</option>
+                        <option value="Narva">Narva</option>
+                        <option value="Parnu">Pärnu</option>
+                        <option value="Kivioli">Kiviõli</option>
+                    </select>
+                    <br>
+                    <input type="range" id="km" min="0" max="200" onchange="selectOptionValik()">
+                </td>
+                <td>
+                    <div id="answer4"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="date">When were you born?</strong>
+                </td>
+                <td>
+                    <input type="date" id="date" onchange="forAnsver5()">
+                </td>
+                <td>
+                    <div id="answer5"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="email">Your e-mail:</strong>
+                </td>
+                <td>
+                    <input type="email" id="email" value="email@mail.com" onclick="">
+                </td>
+                <td>
+                    <div id="answer6"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="file">Upload your CV:</strong>
+                </td>
+                <td>
+                    <input type="file" id="file" value="Your file" onclick="">
+                </td>
+                <td>
+                    <div id="answer7"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="time">Time of your birth:</strong>
+                </td>
+                <td>
+                    <input type="time" id="time" value="Your time zone:" onclick="">
+                </td>
+                <td>
+                    <div id="answer8"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="tel">Your phone number:</strong>
+                </td>
+                <td>
+                    <input type="tel" id="tel" value="+372" onclick="">
+                </td>
+                <td>
+                    <div id="answer9"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="datetime">Your date-time local:</strong>
+                </td>
+                <td>
+                    <input type="datetime-local" id="datetime">
+                </td>
+                <td>
+                    <div id="answer10"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="hidden">Hidden:</strong>
+                </td>
+                <td>
+                    <input type="hidden" id="hidden" value="Hidden" onclick="">
+                </td>
+                <td>
+                    <div id="answer11"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong for="image">Your photo:</strong>
+                </td>
+                <td>
+                    <input type="image" id="image" value="Image" src="img/pers.png" onclick="">
+                </td>
+                <td>
+                    <div id="answer12"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="OK" onclick="toPrintTable()">
+                </td>
+                <td>
+                    <input type="reset" value="Clear" onclick="toClear()">
+                </td>
+            </tr>
+        </table>
+        <div id="printAll"></div>
+    </form>
+</body>
+</html>
