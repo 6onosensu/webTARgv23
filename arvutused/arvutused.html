@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS arvutused</title>
+    <script src="arvutusScript.js"></script>
+</head>
+<body onload="juhuslikPilt()">
+    <h1>Juhuslik pilt</h1>
+    <img src="" id="random-pilt" alt="pilt">
+
+    <h2>Vali mida sa näed pildil: </h2>
+    <label for="valik">Tee oma valik: </label>
+    <select id="valik" onchange="pildiKontroll()">
+        <option> Vali...</option>
+        <option value="img/fir.png">W</option>
+        <option value="img/sec.png">Pink swirls</option>
+        <option value="img/thi.png">Something intricate</option>
+    </select>
+    <br>
+    <input type="radio" name="valik2" id="fir" value="img/fir.png" onchange="pildiKontrollRadio()">
+    <lable for="fir">W - 2.50 euro</lable>
+    <br>
+    <input type="radio" name="valik2" id="sec" value="img/sec.png" onchange="pildiKontrollRadio()">
+    <lable for="sec">Pink swirls - 2 euro</lable>
+    <br>
+    <input type="radio" name="valik2" id="thi" value="img/thi.png" onchange="pildiKontrollRadio()">
+    <lable for="thi">Something intricate - 50 euro</lable>
+    <div id="vastus"></div>
+
+    <h2>Lisa vajalik kogus</h2>
+    <label for="kogus">Kogus: </label>
+    <input type="number" id="kogus" min="1" max="100" step="5">
+    <input type="button" value="Arvuta" onclick="radioValikuHinnad()">
+    <div id="vastus2"></div>
+
+</body>
+</html>
