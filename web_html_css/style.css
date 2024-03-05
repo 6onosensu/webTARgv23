@@ -59,35 +59,60 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: rgb(222, 184, 135);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
+    font-size: 10px;
 }
 
 main section {
-    position: absolute;
-    right: 0;
+    right: 10px;
     border-right: 8px solid rgb(222, 184, 135);
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 2%;
-    width: 40%;
-    margin: 30px;
+    margin-bottom: 50px;
+    margin-left: 60%;
+    margin-right: 0;
 }
 
 section {
     text-align: center;
 }
 
-img {
-    border-radius: 30px;
-    margin: 10px;
+#first {
+    text-align: left;
 }
 
 #second {
-    position: absolute;
-    left: 500px;
-    top: 160px;
+    text-align: left;
+}
+
+.links {
+    text-align: left;
+    color: rgb(74, 63, 50);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.links a {
+
+    color: rgb(74, 63, 50);
+    border-radius: 50px;
+}
+
+main section div a:hover {
+    color: rgb(74, 63, 50);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgb(74, 63, 50);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+img {
+    border-radius: 30px;
+    margin: 10px;
 }
 
 .image {
