@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Sale of Cats</title>
-    <script src="saleScript.js"></script>
+    <script src="saleOfCatsScript.js"></script>
 </head>
+
 <body onload="getRandomImage()">
     <h1>Sale of Cats</h1>
     <table border="1">
         <tr>
             <td>
-                <img src="" id="random-cat" alt="cat"></td>
+                <img src="" id="random-cat" alt="cat">
+            </td>
             <td>
                 <div id="answer"></div>
                 <label for="option">Make your choice: </label>
                 <br>
                 <select id="option" onchange="checkImg()">
                     <option> Choose...</option>
-                    <option value="img/cats/siamese.jpg">Siamese cat</option>
-                    <option value="img/cats/british.jpg">British cat</option>
-                    <option value="img/cats/maineCoon.jpg">Maine coon</option>
+                    <option id="siam" value="img/cats/siamese.jpg">Siamese cat</option>
+                    <option id="brit" value="img/cats/british.jpg">British cat</option>
+                    <option id="mc" value="img/cats/maineCoon.jpg">Maine coon</option>
                 </select>
             </td>
         </tr>
@@ -41,12 +44,13 @@
         </tr>
         <tr>
             <td>
-                <input type="button" value="Calculate" onclick="">
+                <input type="button" value="Calculate" onclick="showResult()">
             </td>
             <td>
-                <div id="vastus2"></div>
+                <div id="answer2"></div>
             </td>
         </tr>
     </table>
 </body>
+
 </html>
