@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <title>Sale of Cats</title>
     <script src="saleOfCatsScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="saleOfCatsStyle.css">
 </head>
 
 <body onload="getRandomImage()">
     <h1>Sale of Cats</h1>
-    <table border="1">
+    <table>
         <tr>
-            <td>
+            <td id="topLeft">
                 <img src="" id="random-cat" alt="cat">
             </td>
-            <td>
+            <td id="topRight">
                 <div id="answer"></div>
                 <label for="option">Make your choice: </label>
                 <br>
@@ -27,7 +28,11 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td id="centerleft">
+                <label for="quantity">Quantity: </label>
+                <input type="number" id="quantity" min="1" max="4">
+            </td>
+            <td id="centerright">
                 <input type="radio" name="choice" id="siamese" value="img/cats/siamese.jpg" onchange="checkImgR()">
                 <lable for="siamese">Siamese cat</lable>
                 <br>
@@ -37,16 +42,12 @@
                 <input type="radio" name="choice" id="maineCoon" value="img/cats/maineCoon.jpg" onchange="checkImgR()">
                 <lable for="maineCoon">Maine coon</lable>
             </td>
-            <td>
-                <label for="quantity">Quantity: </label>
-                <input type="number" id="quantity" min="1" max="4">
-            </td>
         </tr>
         <tr>
-            <td>
-                <input type="button" value="Calculate" onclick="showResult()">
+            <td id="bottomLeft">
+                <input class="button" type="button" value="Calculate" onclick="showResult()">
             </td>
-            <td>
+            <td id="bottomRight">
                 <div id="answer2"></div>
             </td>
         </tr>

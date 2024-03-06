@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(230, 217, 199);
+    color: rgb(74, 63, 50);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+}
+
+table {
+    color: rgb(255, 255, 255);
+    background-color: rgb(222, 184, 135);
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+}
+
+#topLeft {
+    border-top-left-radius: 25px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#topRight {
+    border-top-right-radius: 25px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#centerleft {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#centerright {
+    border-right: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#bottomLeft {
+    border-bottom-left-radius: 25px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#bottomRight {
+    border-bottom-right-radius: 25px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+option,
+select,
+input,
+.button {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 1.2;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(230, 217, 199);
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+    border-radius: 20px;
+}
+
+option:hover,
+select:hover,
+input:hover,
+.button:hover {
+    box-shadow: 0 5px 10px rgb(74, 63, 50);
+    cursor: pointer;
+}
+
+option:focus,
+select:focus,
+input:focus,
+.button:focus {
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    transition-duration: 1s;
+}
+
+option:checked,
+select:checked,
+input:checked,
+.button:checked {
+    border: 2px solid rgb(230, 217, 199);
+}
+
+img {
+    border-radius: 25px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}

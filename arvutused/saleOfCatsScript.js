@@ -8,6 +8,7 @@ function checkImg() {
     const img = document.getElementById("random-cat").getAttribute("src");
     document.getElementById("answer").innerHTML = document.getElementById("option").value === img ? "Correct!" : "Incorrect!";
     document.getElementById("answer").style.color = document.getElementById("option").value === img ? "green" : "red";
+    return document.getElementById("option").value === img ? "Correct!" : "Incorrect!";
 }
 function cleanRadio() {
     const choice = document.getElementsByName("choice");
@@ -39,6 +40,7 @@ function calculate(quantity, price) {
 const siamesePrice = 400;
 const britishPrice = 250;
 const maineCoonPrice = 500;
+
 
 function showResult() {
     let quantity = Number(document.getElementById("quantity").value);
