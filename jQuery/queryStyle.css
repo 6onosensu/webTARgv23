@@ -1,0 +1,12 @@
+div#txt1 {
+    width: 300px;
+    border: solid 1px;
+    position: relative;
+    left: 0px;
+    padding: 1%;
+}
+#earth {
+    margin: 10px;
+    width: 400px;
+    height: 320px;
+}
