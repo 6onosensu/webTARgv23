@@ -1,14 +1,12 @@
 html {
-    background-color: rgb(230, 217, 199);
-    color: rgb(74, 63, 50);
+    background-color: #bebebe;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.3px;
-    font-size: 24px;
 }
 
 header {
     color: rgb(255, 255, 255);
-    background-color: rgb(222, 184, 135);
+    background-color: #637A9F;
     padding-bottom: 1px;
     padding-top: 3px;
     padding-right: 50px;
@@ -18,12 +16,12 @@ header {
 }
 
 nav {
-
+    font-size: 24px;
     box-sizing: border-box;
-    padding-right: 38px;
+    padding-right: 30px;
     margin-top: 20px;
     border-radius: 50px;
-    background-color: rgb(222, 184, 135);
+    background-color: #637A9F;
 }
 
 nav li {
@@ -32,7 +30,6 @@ nav li {
 
 nav li a {
     color: rgb(255, 255, 255);
-    margin-bottom: 100px;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -42,14 +39,13 @@ nav li a {
 }
 
 nav li a:hover {
-    color: rgb(74, 63, 50);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 1px 10px rgb(74, 63, 50);
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 10px #637A9F;
     border-radius: 50px;
 }
 
 nav ul {
-    color: rgb(74, 63, 50);
     list-style-type: none;
     padding: 0;
     padding-bottom: 48px;
@@ -67,47 +63,57 @@ footer {
 
 main section {
     right: 10px;
-    border-right: 8px solid rgb(222, 184, 135);
-    background-color: rgb(255, 255, 255);
+    border: 0.5px solid #637A9F;
+    border-right: 8px solid #637A9F;
+    background-color: #ffffff;
     border-radius: 30px;
-    padding: 2%;
     margin-bottom: 50px;
     margin-left: 60%;
     margin-right: 0;
-    font-size: 18px;
+    font-size: 20px;
+    box-shadow: 0 1px 10px #637A9F;
 }
+
 .section {
-    text-align: left;
-    padding: 40px;
-}
-section {
     text-align: center;
+    padding: 40px;
+    line-height: 30px;
 }
 
-.links {
+.list {
     text-align: left;
-    color: rgb(74, 63, 50);
     margin-bottom: 5px;
-    padding: 5px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 50px;
 }
 
-.links a {
-
-    color: rgb(74, 63, 50);
+.list li {
+    padding-top: 20px;
+    color: #000000;
     border-radius: 50px;
+}
+
+.list li a {
+    color: #000000;
 }
 
 main section div a:hover {
-    color: rgb(74, 63, 50);
+    color: #000000;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 10px rgb(74, 63, 50);
+    box-shadow: 0 5px 10px #637A9F;
     padding: 10px;
     border-radius: 50px;
 }
 
 img {
     border-radius: 25px;
+    border: 0.5px solid #637A9F;
+}
+
+img:hover {
+    box-shadow: 0 5px 10px #637A9F;
 }
 
 .image {
