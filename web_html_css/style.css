@@ -111,12 +111,10 @@ main section div a:hover {
 }
 
 img {
-    border-radius: 30px;
-    margin: 10px;
+    border-radius: 25px;
 }
 
 .image {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
