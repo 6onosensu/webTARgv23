@@ -5,48 +5,54 @@
     <meta charset="UTF-8">
     <title>Darja Veebirakenduste tööd</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
+    <header class="nav">
         <meta charset="UTF-8">
         <h1>Darja Veebirakenduste tööd</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Avaleht</a></li>
-            <li><a href="kursus.html">Kursuse info</a></li>
-            <li><a href="https://darjaportnova23.thkit.ee/wp/" target="_blank">Wordpress- portfoolio</a></li>
-            <li><a href="tood.html">Tööd</a></li>
-        </ul>
+    <nav class="nav">
+        <div class="menu">
+            <div><img src="img/season.png" alt="season" id="seasonImg"></div>
+            <div><a href="index.html">Avaleht</a></div>
+            <div><a href="kursus.html">Kursuse info</a></div>
+            <div><a href="https://darjaportnova23.thkit.ee/wp/" target="_blank">Wordpress- portfoolio</a></div>
+            <div><a href="tood.html">Tööd</a></div>
+        </div>
     </nav>
     <main>
-        <section id="first" class="section">
-            <h2>Veebirakenduste alused kursus</h2>
-            <div>
-                <strong>Teemad:</strong>
-                <ol class="list">
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>PHP</li>
-                    <li>Wordpress</li>
-                </ol>
-            </div>
-        </section>
-        <section id="second" class="section">
-            <h2>Kasulikud lingid</h2>
-            <div>
-                <ul class="list">
-                    <li>
-                        <a href="https://validator.w3.org/">HTML validator</a>
-                    </li>
-                    <li>
-                        <a href="https://www.w3schools.com/">W3schools</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <div class="frow">
+            <section id="first" class="section firstSec">
+                <h2>Veebirakenduste alused kursus</h2>
+                <div>
+                    <strong>Teemad:</strong>
+                    <ol class="list">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>PHP</li>
+                        <li>Wordpress</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="second" class="section secondSec">
+                <h2>Kasulikud lingid</h2>
+                <div>
+                    <ul class="list">
+                        <li>
+                            <a href="https://validator.w3.org/">HTML validator</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/">W3schools</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
     </main>
-    <!--jalus-->
     <footer>
         D.S. &copy; 2024
     </footer>
