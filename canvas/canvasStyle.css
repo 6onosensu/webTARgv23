@@ -1,0 +1,15 @@
+#window {
+    background-color: khaki;
+}
+
+input[type=button] {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: lightblue;
+    color: aliceblue;
+}
+
+input[type=button]:hover {
+    background-color: deepskyblue;
+}

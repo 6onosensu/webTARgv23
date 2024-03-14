@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joonistan JS meetoditega</title>
+  <link rel="stylesheet" href="canvasStyle.css">
+    <script src="canvaScript.js"></script>
+</head>
+<body>
+<h1>Joonis väga super ilus</h1>
+<canvas id="window" width="700" height="500">
+
+</canvas>
+<br>
+<input type="button" value="circle" onclick="circle()">
+<input type="button" value="square" onclick="square()">
+<input type="button" value="line" onclick="line()">
+<input type="button" value="clear" onclick="delete_()">
+<br>
+<input type="number" id="width" min="10" max="150" step="10" value="50"> :X
+<input type="number" id="height" min="10" max="150" value="50"> :Y
+<input type="button" value="like square" onclick="square2()">
+<br>
+<div><input type="number" id="r" min="10" max="150" value="40"> :window radius
+    <input type="button" value="window" onclick="radius_()"></div>
+<div><input type="number" id="xRec" value="300"> :X
+    <input type="number" id="yRec" value="175"> :Y
+    <input type="button" value="rectangle" onclick="rectangle()"></div>
+<div><input type="number" id="h" value="300"> :Y bottom
+    <input type="number" id="top" value="5"> :Y top
+    <input type="button" value="triangle" onclick="triangle()"></div>
+<div><input type="number" min="10" max="150" value="50"> :Y</div>
+<div><input type="number" min="10" max="150" value="50"> :Y</div>
+<div><input type="number" min="10" max="150" value="50"> :Y</div>
+</body>
+</html>
