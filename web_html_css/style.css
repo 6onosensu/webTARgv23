@@ -175,11 +175,14 @@ section img:hover {
     display: none;
 }
 
+#hideShow,
 button {
     cursor: pointer;
     border-radius: 25px;
 }
 
+
+#hideShow,
 #fade {
     margin: 50px;
     color: #ffffff;
@@ -190,4 +193,8 @@ button {
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+#hideShow {
+    margin: 0px;
 }

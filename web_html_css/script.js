@@ -4,13 +4,13 @@ $(document).ready(function () {
     const seasons = ["Spring", "Summer", "Fall", "Winter"];
     const borderR = 'border-right';
     const bg = 'background-color';
+    const nav = $('.nav');
+    const html = $('html');
+    const section = $('.section');
+    const duck = $('#duck');
+    const h2 = $('#h2');
+    const panel = $('#panel');
     let currentSeasonId = 0;
-    let nav = $('.nav');
-    let html = $('html');
-    let section = $('.section');
-    let duck = $('#duck');
-    let h2 = $('#h2');
-    let panel = $('#panel');
 
     duck.draggable();
     duck.bind('drag', move);
@@ -53,11 +53,22 @@ $(document).ready(function () {
         panel.css('border-radius', '25px');
     });
     $("#fade").click(function () {
-        $("#snow").fadeIn();
-        $("#div2").fadeIn("slow");
-        $("#div3").fadeIn(3000);
+        $("#redBox").fadeToggle();
+        $("#greenBox").fadeToggle("slow");
+        $("#blueBox").fadeToggle(3000);
     });
-
+    let open = true;
+    const hideShow = $("#hideShow");
+    hideShow.click(function () {
+        $('#gif').slideToggle();
+        if (open) {
+            open = false;
+            hideShow.val('Show');
+        } else {
+            open = true;
+            hideShow.val('Hide');
+        }
+    });
     function move(event, ui) {
         let place = ui.offset;
         $('#address').html(place.top + " // " + place.left);
