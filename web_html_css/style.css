@@ -175,14 +175,14 @@ section img:hover {
     display: none;
 }
 
-#hideShow,
+input[type=button],
 button {
     cursor: pointer;
     border-radius: 25px;
 }
 
 
-#hideShow,
+input[type=button],
 #fade {
     margin: 50px;
     color: #ffffff;
@@ -195,6 +195,6 @@ button {
     padding-right: 15px;
 }
 
-#hideShow {
+input[type=button] {
     margin: 0px;
 }
