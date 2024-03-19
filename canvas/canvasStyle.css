@@ -6,10 +6,17 @@ input[type=button] {
     padding: 10px 20px;
     border-radius: 20px;
     border: 0;
+    margin: 5px;
     background-color: lightblue;
     color: aliceblue;
 }
 
 input[type=button]:hover {
     background-color: deepskyblue;
+}
+
+input[type=number] {
+    border-radius: 20px;
+    margin: 5px;
+    width: 50px;
 }
