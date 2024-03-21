@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opilased>
+    <opilane sugu="mees">
+        <nimi>Aleksandr Kaasik</nimi>
+        <veebileht class="link">https://aleksandrkaasik23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Oleksii Rudenko</nimi>
+        <veebileht>https://OleksiiRudenko23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Vitalii Sokhan</nimi>
+        <veebileht>https://VitaliiSokhan23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Mihhail Bajandin</nimi>
+        <veebileht>https://MihhailBajandin23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="naine">
+        <nimi>Darja Suhhanova</nimi>
+        <veebileht>https://DarjaPortnova23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Erwin Sults</nimi>
+        <veebileht>https://ErwinSults23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="naine">
+        <nimi>Regina Kolesnikova</nimi>
+        <veebileht>https://ReginaKolesnikova23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Sergei Antonov</nimi>
+        <veebileht>https://SergeiAntonov23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="naine">
+        <nimi>Aleksandra Boitsova</nimi>
+        <veebileht>https://AleksandraBoitsova23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Martin</nimi>
+        <veebileht>https://kk.xid.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Kyrylo Chernykh</nimi>
+        <veebileht>https://KyryloChernykh23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Eduard Kozyrev</nimi>
+        <veebileht>https://EduardKozyrev23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Aleksandr Nikolas</nimi>
+        <veebileht>https://AleksandrNikolas23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Janis Pahhomov</nimi>
+        <veebileht>https://JanisPahhomov23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Vladislav Orlov</nimi>
+        <veebileht>https://vladislavorlov23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+    <opilane sugu="mees">
+        <nimi>Jegor Skljar</nimi>
+        <veebileht>https://JegorSkljar23.thkit.ee/</veebileht>
+        <pilt class="img">pall.png</pilt>
+    </opilane>
+</opilased>

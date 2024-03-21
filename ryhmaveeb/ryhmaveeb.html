@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>andmed xml failist jQuery kaudu</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            //jQuery ajax-meetod
+            $.ajax({
+                type: "GET",
+                url: "opilased.xml",
+                dataType: "xml",
+                success: naitaXML,
+                error: vigaXML
+            });
+        });
+        function naitaXML(xml){
+            //each(), find(), attr()
+
+            $(xml).find('opilane').each(function(){
+                var sugu = $(this).attr('sugu');
+                var veebileht = $(this).find('veebileht').text();
+                var imgsrc = '';
+                if (sugu === 'mees') {
+                    imgsrc = 'pildid/boy.png';
+                } else if (sugu === 'naine') {
+                    imgsrc = 'pildid/girl.jpg';
+                }
+
+                $("#ala").append(
+                    '<h2 class="'+sugu+'">'+$(this).find('nimi').text()+'</h2>'+
+                    '<img href="'+$(this).find('veebileht').text()+'" class="img" src="'+ imgsrc +'" alt="pilt">'
+                );
+
+            });
+
+        }
+        function vigaXML(){
+            // meetod append()- insert
+            $("#ala").append('<p style="color:red">Probleem XML failis!</p>');
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+<header class="nav">
+    <h1>TARgv23 Group!</h1>
+</header>
+<main>
+    <div id="ala"></div>
+</main>
+<footer>
+    TARgv23 &copy; 2024
+</footer>
+
+Ülesanne:
+3. kujundada html leht css abil, kasutada klassid ja üldised omadused igale html käsule
+4. iga õpilasele saab linkida
+5* lisa jquery animatsioonid
+
+
+
+
+</body>
+</html>
