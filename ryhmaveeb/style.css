@@ -1,36 +1,47 @@
-.img{
-    width:150px;
+.img {
+    width: 100px;
 }
-h2{
-   background-color: #c4b6ad;
-    width: 20%;
+
+a {
+    text-decoration: none;
 }
-div {
+
+h2 {
+    background-color: #c4b6ad;
+    width: 250px;
+    padding: 10px;
 }
-.mees{
+
+.mees {
     color: #1e4b5b;
     background-color: lightblue;
-    border-radius: 20px;
-    padding: 20px 10px 20px 10px;
-    text-align: center;
 }
-.naine{
+
+.naine {
     color: #654070;
     background-color: pink;
+}
+
+.mees,
+.naine {
     border-radius: 20px;
     padding: 20px 10px 20px 10px;
     text-align: center;
 }
 
 #ala {
-    margin: auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 4000px;
 }
 
-.img:hover{
+.img:hover {
     border: 1px solid black;
     border-radius: 20px;
 }
