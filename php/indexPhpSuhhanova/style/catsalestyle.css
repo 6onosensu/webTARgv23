@@ -1,0 +1,98 @@
+.cats #beautiful-table {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #004B80FF;
+    background-color: #FFDB80;
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: 5px solid #004B80FF;
+}
+
+.cats #beautiful-table td {
+    padding: 10px 10px 10px 10px;
+}
+
+.cats #topLeft {
+    border-top-left-radius: 25px;
+    border-left: 1px solid #004B80FF;
+    border-right: 1px solid #004B80FF;
+}
+
+.cats #topRight {
+    border-top-right-radius: 25px;
+    border-right: 1px solid #004B80FF;
+}
+
+.cats #centerleft {
+    border: 1px solid #004B80FF;
+}
+
+.cats #centerright {
+    border-right: 1px solid #004B80FF;
+    border-top: 1px solid #004B80FF;
+    border-bottom: 1px solid #004B80FF;
+}
+
+.cats #bottomLeft {
+    border-bottom-left-radius: 25px;
+    border-left: 1px solid #004B80FF;
+    border-right: 1px solid #004B80FF;
+}
+
+.cats #bottomRight {
+    border-bottom-right-radius: 25px;
+    border-right: 1px solid #004B80FF;
+}
+
+.cats option,
+.cats select,
+.cats input,
+.cats .button {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 1.2;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(230, 217, 199);
+    border-top: 1px solid #004B80FF;
+    border-bottom: 1px solid #004B80FF;
+    border-left: none;
+    border-right: none;
+    border-radius: 20px;
+}
+
+.cats option:hover,
+.cats select:hover,
+.cats input:hover,
+.cats .button:hover {
+    box-shadow: 0 5px 10px rgb(74, 63, 50);
+    cursor: pointer;
+}
+
+.cats option:focus,
+.cats select:focus,
+.cats input:focus,
+.cats .button:focus {
+    box-shadow: 0 5px 10px #004B80FF;
+    transition-duration: 1s;
+}
+
+.cats option:checked,
+.cats select:checked,
+.cats input:checked,
+.cats .button:checked {
+    border: 2px solid rgb(230, 217, 199);
+}
+
+.cats img {
+    border-radius: 25px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.cats #beautiful-table .highlight {
+    background: #FFDB80;
+}

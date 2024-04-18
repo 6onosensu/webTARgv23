@@ -1,0 +1,40 @@
+#myForm {
+    border-radius: 5px;
+    width: 990px;
+}
+#myForm strong {
+    font-size: inherit;
+}
+#tableCont td{
+    padding: 10px;
+    border: 1px solid #FFDB80;
+    border-radius: 5px;
+    width: 400px;
+    height: 20px;
+}
+.inputForm {
+    width: 99%;
+    border: 2px solid #a3caff;
+    border-radius: 5px;
+}
+.inputForm:hover {
+    border: 2px solid #004B80FF;
+    transition-duration: initial;
+}
+#tableCont td:hover{
+    border: 1px solid #ffb600;
+    border-radius: 5px;
+}
+input[type=reset] {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #a3caff;
+    background-color: #a3caff;
+    color: black;
+}
+input[type=reset]:hover {
+    background-color: #004B80FF;
+    border: 2px solid #004B80FF;
+    color: white;
+    cursor: pointer;
+}

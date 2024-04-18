@@ -1,0 +1,142 @@
+#flags {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.flags {
+    gap: 10px;
+    margin: 20px;
+}
+#eesti,
+#rootsi,
+#prantsusmaa,
+#norra,
+#jaapani,
+#kreeka{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+}
+
+
+#eesti tr:nth-child(1) {
+    background-color: blue;
+}
+#eesti tr:nth-child(2) {
+    background-color: black;
+}
+#eesti tr:nth-child(3) {
+    background-color: white;
+}
+
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: blue;
+    width: 28%;
+}
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: blue;
+}
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: gold;
+    width: 13%;
+}
+#rootsi tr:nth-child(2) {
+    background-color: gold;
+    height: 20%;
+}
+
+#prantsusmaa td:nth-child(1) {
+    background-color: blue;
+}
+#prantsusmaa td:nth-child(2) {
+    background-color: white;
+}
+#prantsusmaa td:nth-child(3) {
+    background-color: red;
+}
+
+#norra tr:nth-child(1) td:nth-child(1),
+#norra tr:nth-child(5) td:nth-child(1) {
+    background-color: red;
+    height: 34%;
+    width: 20%;
+}
+#norra tr:nth-child(5) td:nth-child(5),
+#norra tr:nth-child(1) td:nth-child(5) {
+    background-color: red;
+    height: 34%;
+    width: 60%;
+}
+#norra tr:nth-child(3) td:nth-child(1) {
+    background-color: darkblue;
+    height: 15%;
+}
+#norra tr:nth-child(1) td:nth-child(3),
+#norra tr:nth-child(2) td:nth-child(3),
+#norra tr:nth-child(4) td:nth-child(3),
+#norra tr:nth-child(5) td:nth-child(3){
+    background-color: darkblue;
+    width: 8.5%;
+}
+#norra tr:nth-child(1) td:nth-child(2),
+#norra tr:nth-child(1) td:nth-child(4),
+#norra tr:nth-child(2) td:nth-child(1),
+#norra tr:nth-child(4) td:nth-child(1){
+    background-color: white;
+
+}
+
+#jaapani tr:nth-child(2) td:nth-child(2) {
+    width: 40%;
+    height: 60%;
+    background-color: red;
+    border-radius: 50%;
+}
+#jaapani tr:nth-child(1),
+#jaapani tr:nth-child(3) {
+    background-color: white;
+}
+
+#kreeka tr:nth-child(1) td:nth-child(1),
+#kreeka tr:nth-child(2) td:nth-child(1),
+#kreeka tr:nth-child(4) td:nth-child(1),
+#kreeka tr:nth-child(5) td:nth-child(1),
+#kreeka tr:nth-child(1) td:nth-child(3),
+#kreeka tr:nth-child(2) td:nth-child(3),
+#kreeka tr:nth-child(4) td:nth-child(3),
+#kreeka tr:nth-child(5) td:nth-child(3) {
+    background-color: darkblue;
+    width: 11%;
+}
+#kreeka tr:nth-child(1) td:nth-child(4),
+#kreeka tr:nth-child(5) td:nth-child(4) {
+    background-color: darkblue;
+    width: 70%;
+}
+#kreeka tr:nth-child(2) td:nth-child(4),
+#kreeka tr:nth-child(4) td:nth-child(4) {
+    background-color: white;
+    width: 70%;
+}
+#kreeka tr:nth-child(7) td:nth-child(1),
+#kreeka tr:nth-child(9) td:nth-child(1) {
+    background-color: darkblue;
+}
+#kreeka tr:nth-child(8) td:nth-child(1),
+#kreeka tr:nth-child(6) td:nth-child(1) {
+    background-color: white;
+}
+#kreeka tr:nth-child(3) td:nth-child(1) {
+    background-color: white;
+}
+#kreeka tr:nth-child(3) td:nth-child(2) {
+    background-color: darkblue;
+    width: 70%;
+}

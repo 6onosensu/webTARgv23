@@ -1,0 +1,11 @@
+div#txt {
+    width: 300px;
+    border: solid 1px;
+    position: relative;
+    left: 0px;
+    padding: 1%;
+}
+
+#png {
+    width: 300px;
+}

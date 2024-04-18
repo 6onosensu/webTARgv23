@@ -1,0 +1,31 @@
+#three-tables {
+    text-align: center;
+}
+#three-tables table {
+    height: 100px;
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+#first-table, #first-table td {
+    border: 1px solid black;
+}
+#second-table, #second-table td {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+#third-table, #third-table td {
+    border: 1px solid #ffb600;
+    border-radius: 5px;
+}
+#fourth-table {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+#fourth-table, #fourth-table td {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border: 1px solid #004B80FF;
+    border-radius: 5px;
+}

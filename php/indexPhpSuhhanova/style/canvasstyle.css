@@ -1,0 +1,23 @@
+#window {
+    background-color: #FFDB80;
+}
+
+input[type=button] {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #a3caff;
+    background-color: #a3caff;
+    color: black;
+}
+
+input[type=button]:hover {
+    background-color: #004B80FF;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=number] {
+    border-radius: 20px;
+    margin: 5px;
+    width: 50px;
+}
