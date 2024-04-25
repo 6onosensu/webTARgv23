@@ -1,0 +1,117 @@
+#hiking{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#hiking h1 {
+    margin-left: 20px;
+}
+#hiking h2 {
+    margin-top: 33px;
+}
+#hiking h3 {
+    margin-left: 20px;
+}
+#hiking ul {
+    list-style-type: none;
+}
+
+.link {
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+}
+.a {
+    background-color: #FFDB80;
+    padding: 10px;
+    list-style-type: none;
+}
+#trfield {
+    background-color: #ccc;
+}
+
+
+.w3-table-all {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    display:table;
+    background-color: #ccc;
+    border:1px solid #ccc;
+    margin:20px 20px
+}
+.w3-table-all tr{
+    border-bottom:1px solid #ddd;
+}
+.w3-table-all tr:nth-child(odd){
+    background-color:#fff;
+}
+.w3-table-all tr:nth-child(even){
+    background-color:#f1f1f1;
+}
+.w3-table-all td,
+.w3-table-all th{
+    margin: 8px;
+    padding: 8px 20px;
+    display:table-cell;
+    vertical-align:top;
+    text-align: left;
+    width: 100%;
+}
+.w3-table-all th:first-child,
+.w3-table-all td:first-child{
+    padding-left:16px;
+}
+.w3-hoverable tbody tr:hover,
+.w3-hoverable li:hover{
+    background-color:#ccc;
+}
+.a:hover,
+.w3-hoverable tbody tr:hover,
+.w3-hoverable li:hover {
+    background-color: #FFDB80;
+}
+
+.w3-container {
+    padding: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 93%;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-btn:hover, .w3-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.w3-btn:disabled, .w3-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+.w3-btn.w3-disabled:hover, .w3-btn:disabled:hover {
+    box-shadow: none;
+}
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #000000;
+    background-color: #FFDB80;
+}
+.w3-btn:hover, .w3-btn:active {
+    background-color: #ffb600 !important;
+    color: #ffffff;
+}
