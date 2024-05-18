@@ -1,0 +1,101 @@
+.jalg {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#JalgrattaHeader {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 30px;
+    margin: 0;
+}
+#nav-jalg {
+    margin: 0;
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+#ul-jalg {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+#ul-jalg li {
+    float: left;
+    display: inline;
+}
+#ul-jalg li .a-jalg {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h2,
+.jalg label {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.jalg input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.jalg input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+.jalg a:hover,
+.jalg input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.jalg table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.jalg table td, .jalg table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.jalg table tr:nth-child(even){background-color: #f2f2f2;}
+
+.jalg tables tr:hover {background-color: #ddd;}
+
+.jalg table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.jalg a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 9px 20px;
+}
+.jalg .img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: 60% 60%;
+}
+.jalg table td .btn-field {
+    padding: 4px 6px;
+}
+.jalg-table {
+    width: 95%;
+}
+.jalg .jalg-table td input[type=submit] {
+    padding: 4px 6px;
+}
+
